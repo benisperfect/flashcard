@@ -11,6 +11,21 @@
 
 _Master 500+ SAT vocabulary words with our engaging flashcard system_
 
+**🎯 Project inspired by:** [Roadmap.sh Flash Cards Project](https://roadmap.sh/projects/flash-cards)
+
+</div>nter">
+
+# 🃏 SAT Vocabulary Flashcards
+
+### 📚 Interactive Learning Platform for SAT Verbal Success
+
+[![Nuxt.js](https://img.shields.io/badge/Nuxt.js-00DC82?style=for-the-badge&logo=nuxt.js&logoColor=white)](https://nuxt.com/)
+[![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)](https://vuejs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+
+_Master 500+ SAT vocabulary words with our engaging flashcard system_
+
 </div>
 
 ---
