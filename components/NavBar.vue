@@ -18,17 +18,14 @@ import { Icon } from "@iconify/vue";
         <h1 class="text-white">Flashcard App</h1>
       </div>
       <Button
-        class="bg-white text-black font-sans hover:translate-y-[-5px] hover:bg-gray-300"
-        ><NuxtLink to="/categories"><ChartBarStacked /></NuxtLink
-      ></Button>
+        class="bg-white text-black font-sans hover:translate-y-[-2px] hover:bg-white"
+        >Add vocab</Button>
       <Button
-        class="bg-white text-black font-sans hover:translate-y-[-5px] hover:bg-gray-300"
-        ><NuxtLink to="/difficulties"><Flame /></NuxtLink
-      ></Button>
+        class="bg-white text-black font-sans hover:translate-y-[-2px] hover:bg-white"
+        >Shuffle</Button>
       <Button
-        class="bg-white text-black font-sans hover:scale-120 hover:bg-gray-300"
-        ><NuxtLink to="/"><House /></NuxtLink
-      ></Button>
+        class="bg-white text-black font-sans hover:translate-y-[-2px] hover:bg-white"
+        >Quiz</Button>
     </div>
   </div>
 </template>
@@ -44,3 +41,5 @@ h1 {
   font-family: "Akaya Kanadaka", cursive;
 }
 </style>
+
+//21 + 24*4 + 16 = 121

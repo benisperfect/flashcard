@@ -1,11 +1,12 @@
 <script setup lang="ts">
 import { RefreshCcw, ChevronLeft, ChevronRight } from "lucide-vue-next";
+import Vocab from 'assets/data.json'
 
 const isFlipped = ref(false);
 const countID = ref(0);
 
 const increment = () => {
-  if (countID.value < flashcards.length - 1) {
+  if (countID.value < Vocab.vocabulary.length - 1) {
     countID.value++;
   }
 };
@@ -31,10 +32,10 @@ const decrement = () => {
         />
         <div class="flex flex-col justify-center items-center flex-1">
           <p class="font-extrabold text-5xl">
-            {{ flashcards[countID].front }}
+            {{ Vocab.vocabulary[countID].word }}
           </p>
-          <p class="font-medium text-5xl">
-            ex: {{ flashcards[countID].example }}
+          <p class="font-medium text-2xl">
+            ({{ Vocab.vocabulary[countID].pos }})
           </p>
         </div>
         <div class="p-5 flex flex-row justify-center items-end">
@@ -51,7 +52,7 @@ const decrement = () => {
         />
         <div class="flex flex-col justify-center items-center flex-1">
           <p class="font-extrabold text-5xl">
-            {{ flashcards[countID].back }}
+            {{ Vocab.vocabulary[countID].meaning }}
           </p>
         </div>
         <div class="p-5 flex flex-row justify-center items-end">
